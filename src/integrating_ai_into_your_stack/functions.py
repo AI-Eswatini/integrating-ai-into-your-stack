@@ -5,7 +5,6 @@ Like a recipe, write it once and use it many times. It only runs when called.
 Notebook: ask(), ask_json(), and running the AI's tool calls in Part 3.
 """
 
-
 def greet(name):
     return f"Hello {name}"
 
