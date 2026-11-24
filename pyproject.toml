@@ -1,0 +1,24 @@
+[project]
+name = "integrating-ai-into-your-stack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ThembinkosiThemba", email = "thembinkosimkhonta01@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai",
+]
+
+[project.scripts]
+integrating-ai-into-your-stack = "integrating_ai_into_your_stack:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
